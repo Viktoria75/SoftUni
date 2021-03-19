@@ -159,7 +159,7 @@
             // 
             this.currentpaymentLabel.AutoSize = true;
             this.currentpaymentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.currentpaymentLabel.Location = new System.Drawing.Point(485, 369);
+            this.currentpaymentLabel.Location = new System.Drawing.Point(465, 369);
             this.currentpaymentLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.currentpaymentLabel.Name = "currentpaymentLabel";
             this.currentpaymentLabel.Size = new System.Drawing.Size(12, 15);
@@ -207,6 +207,7 @@
             this.logoutButton.TabIndex = 16;
             this.logoutButton.Text = "Logout";
             this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // MainMenu
             // 

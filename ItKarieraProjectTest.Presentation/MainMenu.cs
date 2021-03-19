@@ -21,5 +21,13 @@ namespace ItKarieraProjectTest.Presentation
         }
 
         private PersonInfo currentUser;
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            var loginForm = FormFactory.GetFormInstance<LoginForm>();
+            loginForm.Show();
+
+        }
     }
 }
