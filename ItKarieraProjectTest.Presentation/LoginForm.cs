@@ -27,11 +27,10 @@ namespace ItKarieraProjectTest.Presentation
 			    this.loginController.Login(this.usernameTextBox.Text, hashedPassword);
 
 				//RedirectLogin(userId);
+				this.Hide();
 
 				var MainMenuForm = FormFactory.GetFormInstance<MainMenu>();
 				MainMenuForm.Show();
-
-				this.Hide();
 			}
 			catch (Exception exception)
 			{
