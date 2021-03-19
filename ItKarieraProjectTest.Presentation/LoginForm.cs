@@ -16,16 +16,22 @@ namespace ItKarieraProjectTest.Presentation
 
 		private ILoginController loginController;
 
-		private void loginButton_Click(object sender, EventArgs e)
-		{
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+
 			try
 			{
 				string hashedPassword = PasswordHelper.HashPassword(this.passwordTextBox.Text);
 
-				int userId = this.loginController.Login(this.usernameTextBox.Text, hashedPassword);
+				//int userId = 
+			    this.loginController.Login(this.usernameTextBox.Text, hashedPassword);
+
+				//RedirectLogin(userId);
 
 				var MainMenuForm = FormFactory.GetFormInstance<MainMenu>();
 				MainMenuForm.Show();
+
+				this.Hide();
 			}
 			catch (Exception exception)
 			{
@@ -33,17 +39,21 @@ namespace ItKarieraProjectTest.Presentation
 				this.errorLabel.Visible = true;
 				this.errorLabel.Text = exception.Message;
 			}
-
 		}
 
-		
-		private void registerButton_Click(object sender, EventArgs e)
-		{
+		//private void RedirectLogin(int userId) 
+		//{
+			//var MainMenuForm = FormFactory.GetFormInstance<MainMenu>();
+			//MainMenuForm.Show();
+			//this.Hide();
+		//}
+
+        private void registerButton_Click(object sender, EventArgs e)
+        {
 			this.Hide();
 
 			var registerForm = FormFactory.GetFormInstance<RegisterForm>();
 			registerForm.Show();
 		}
-
-	}
+    }
 }

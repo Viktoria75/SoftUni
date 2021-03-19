@@ -1,0 +1,12 @@
+C:\Users\Viki\Desktop\SoftUniProject-main\obj\Debug\netcoreapp3.1\ItKarieraProjectTest.csprojAssemblyReference.cache
+C:\Users\Viki\Desktop\SoftUniProject-main\obj\Debug\netcoreapp3.1\ItKarieraProjectTest.AssemblyInfoInputs.cache
+C:\Users\Viki\Desktop\SoftUniProject-main\obj\Debug\netcoreapp3.1\ItKarieraProjectTest.AssemblyInfo.cs
+C:\Users\Viki\Desktop\SoftUniProject-main\obj\Debug\netcoreapp3.1\ItKarieraProjectTest.csproj.CoreCompileInputs.cache
+C:\Users\Viki\Desktop\SoftUniProject-main\bin\Debug\netcoreapp3.1\ItKarieraProjectTest.deps.json
+C:\Users\Viki\Desktop\SoftUniProject-main\bin\Debug\netcoreapp3.1\ItKarieraProjectTest.runtimeconfig.json
+C:\Users\Viki\Desktop\SoftUniProject-main\bin\Debug\netcoreapp3.1\ItKarieraProjectTest.runtimeconfig.dev.json
+C:\Users\Viki\Desktop\SoftUniProject-main\bin\Debug\netcoreapp3.1\ItKarieraProjectTest.dll
+C:\Users\Viki\Desktop\SoftUniProject-main\bin\Debug\netcoreapp3.1\ItKarieraProjectTest.pdb
+C:\Users\Viki\Desktop\SoftUniProject-main\obj\Debug\netcoreapp3.1\ItKarieraProjectTest.dll
+C:\Users\Viki\Desktop\SoftUniProject-main\obj\Debug\netcoreapp3.1\ItKarieraProjectTest.pdb
+C:\Users\Viki\Desktop\SoftUniProject-main\obj\Debug\netcoreapp3.1\ItKarieraProjectTest.genruntimeconfig.cache

@@ -21,9 +21,9 @@ namespace ItKarieraProjectTest.DAO
 			return user;
 		}
 
-		public void RegisterUser(PersonInfo loginInfo)
+		public void RegisterUser(WorkersProfile loginInfo)
 		{
-			this.context.PersonInfo.Add(loginInfo);
+			this.context.WorkersProfile.Add(loginInfo);
 			this.context.SaveChanges();
 
 		}
