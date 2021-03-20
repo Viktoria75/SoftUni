@@ -4,7 +4,8 @@ using ItKarieraProjectTest.Models;
 
 namespace ItKarieraProjectTest.DAO
 {
-    public class BalanceDAO : IBalanceDAO
+	//Assigns the value to a database value
+	public class BalanceDAO : IBalanceDAO
     {
 		public PersonInfo GetBalance(decimal money)
 		{

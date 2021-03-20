@@ -7,6 +7,7 @@ namespace ItKarieraProjectTest
 {
     public partial class SoftUniProjectDBContext : DbContext
     {
+        //Connection to the Database
         public SoftUniProjectDBContext()
         {
         }
@@ -24,9 +25,7 @@ namespace ItKarieraProjectTest
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySQL("Server=127.0.0.1;Database=softuniprojectdb; uID=root; pwd=Viktoria7589610; persistsecurityinfo=True");
-                //promeni
+                optionsBuilder.UseMySQL("Server=127.0.0.1;Database=softuniprojectdb; uID=ProjectUser; pwd=123456; persistsecurityinfo=True");
             }
         }
 

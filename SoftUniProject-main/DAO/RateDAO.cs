@@ -4,7 +4,8 @@ using ItKarieraProjectTest.Models;
 
 namespace ItKarieraProjectTest.DAO
 {
-    public class RateDAO:IRateDAO
+	//Assigns the value to a database value
+	public class RateDAO:IRateDAO
     {
 		public Companies GetRate(int rate)
 		{

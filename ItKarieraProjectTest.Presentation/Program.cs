@@ -27,11 +27,6 @@ namespace ItKarieraProjectTest.Presentation
             var loginForm = scope.Resolve<LoginForm>();
             FormFactory._scope = scope;
             Application.Run(loginForm);
-
-            // Application.SetHighDpiMode(HighDpiMode.SystemAware);
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            // Application.Run(new LoginForm());
         }
     }
 }

@@ -4,7 +4,8 @@ using ItKarieraProjectTest.Models;
 
 namespace ItKarieraProjectTest.DAO
 {
-    public class CompaniesDAO : ICompaniesDAO
+	//Assigns the value to a database value
+	public class CompaniesDAO : ICompaniesDAO
     {
 		public PersonInfo GetCompany(int id)
 		{

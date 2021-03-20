@@ -4,6 +4,7 @@ using System.Text;
 
 namespace ItKarieraProjectTest.Presentation.Utility
 {
+	//Protects Password
 	public static class PasswordHelper
 	{
 		public static string HashPassword(string password)

@@ -4,7 +4,8 @@ using ItKarieraProjectTest.Models;
 
 namespace ItKarieraProjectTest.DAO
 {
-    public class WorkHoursDAO: IWorkHoursDAO
+	//Assigns the value to a database value
+	public class WorkHoursDAO: IWorkHoursDAO
 	{
 		public PersonInfo GetHours(int workhours)
 		{
