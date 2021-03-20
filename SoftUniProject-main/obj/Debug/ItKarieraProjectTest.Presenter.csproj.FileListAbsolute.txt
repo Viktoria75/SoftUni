@@ -1,0 +1,9 @@
+C:\Users\Viki\Desktop\ItKarieraProjectTest.Presenter\bin\Debug\ItKarieraProjectTest.Presenter.exe.config
+C:\Users\Viki\Desktop\ItKarieraProjectTest.Presenter\bin\Debug\ItKarieraProjectTest.Presenter.exe
+C:\Users\Viki\Desktop\ItKarieraProjectTest.Presenter\bin\Debug\ItKarieraProjectTest.Presenter.pdb
+C:\Users\Viki\Desktop\ItKarieraProjectTest.Presenter\obj\Debug\ItKarieraProjectTest.Presenter.csprojAssemblyReference.cache
+C:\Users\Viki\Desktop\ItKarieraProjectTest.Presenter\obj\Debug\ItKarieraProjectTest.Presenter.Properties.Resources.resources
+C:\Users\Viki\Desktop\ItKarieraProjectTest.Presenter\obj\Debug\ItKarieraProjectTest.Presenter.csproj.GenerateResource.cache
+C:\Users\Viki\Desktop\ItKarieraProjectTest.Presenter\obj\Debug\ItKarieraProjectTest.Presenter.csproj.CoreCompileInputs.cache
+C:\Users\Viki\Desktop\ItKarieraProjectTest.Presenter\obj\Debug\ItKarieraProjectTest.Presenter.exe
+C:\Users\Viki\Desktop\ItKarieraProjectTest.Presenter\obj\Debug\ItKarieraProjectTest.Presenter.pdb
