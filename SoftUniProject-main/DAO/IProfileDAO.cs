@@ -5,6 +5,6 @@ namespace ItKarieraProjectTest.DAO
     public interface IProfileDAO
     {
         PersonInfo LogIn(string username, string password);
-        void RegisterUser(PersonInfo loginInfo);
+        void RegisterUser(WorkersProfile loginInfo);
     }
 }

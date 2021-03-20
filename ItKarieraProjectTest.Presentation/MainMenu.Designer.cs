@@ -60,7 +60,7 @@
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.nameLabel.Location = new System.Drawing.Point(235, 43);
+            this.nameLabel.Location = new System.Drawing.Point(220, 43);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(24, 25);
@@ -71,7 +71,7 @@
             // 
             this.balanceLabel.AutoSize = true;
             this.balanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.balanceLabel.Location = new System.Drawing.Point(133, 168);
+            this.balanceLabel.Location = new System.Drawing.Point(118, 168);
             this.balanceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.balanceLabel.Name = "balanceLabel";
             this.balanceLabel.Size = new System.Drawing.Size(14, 16);
@@ -82,7 +82,7 @@
             // 
             this.workhoursLabel.AutoSize = true;
             this.workhoursLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.workhoursLabel.Location = new System.Drawing.Point(476, 168);
+            this.workhoursLabel.Location = new System.Drawing.Point(456, 168);
             this.workhoursLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.workhoursLabel.Name = "workhoursLabel";
             this.workhoursLabel.Size = new System.Drawing.Size(14, 16);
@@ -137,7 +137,7 @@
             // 
             this.companyLabel.AutoSize = true;
             this.companyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.companyLabel.Location = new System.Drawing.Point(162, 256);
+            this.companyLabel.Location = new System.Drawing.Point(155, 257);
             this.companyLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.companyLabel.Name = "companyLabel";
             this.companyLabel.Size = new System.Drawing.Size(14, 16);
@@ -159,7 +159,7 @@
             // 
             this.currentpaymentLabel.AutoSize = true;
             this.currentpaymentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.currentpaymentLabel.Location = new System.Drawing.Point(485, 369);
+            this.currentpaymentLabel.Location = new System.Drawing.Point(465, 369);
             this.currentpaymentLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.currentpaymentLabel.Name = "currentpaymentLabel";
             this.currentpaymentLabel.Size = new System.Drawing.Size(12, 15);
@@ -207,6 +207,7 @@
             this.logoutButton.TabIndex = 16;
             this.logoutButton.Text = "Logout";
             this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // MainMenu
             // 

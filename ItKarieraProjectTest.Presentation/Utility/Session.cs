@@ -8,5 +8,7 @@ namespace ItKarieraProjectTest.Presentation.Utility
     static class Session
     {
         public static PersonInfo CurrentUser;
+
+        //public static Companies CCurrentUser;
     }
 }
