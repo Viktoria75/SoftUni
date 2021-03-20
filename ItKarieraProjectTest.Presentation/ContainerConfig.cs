@@ -17,9 +17,6 @@ namespace ItKarieraProjectTest.Presentation
 			builder.RegisterType<RegisterForm>();
 			builder.RegisterType<MainMenu>();
 			builder.RegisterType<ProfileDAO>().As<IProfileDAO>();
-			builder.RegisterType<WorkHoursDAO>().As<IWorkHoursDAO>();
-			builder.RegisterType<CompaniesDAO>().As<ICompaniesDAO>();
-			builder.RegisterType<BalanceDAO>().As<IBalanceDAO>();
 			builder.RegisterType<LoginController>().As<ILoginController>();
 
 			builder.RegisterInstance<SoftUniProjectDBContext>(new SoftUniProjectDBContext());
