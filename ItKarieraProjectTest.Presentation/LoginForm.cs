@@ -27,6 +27,8 @@ namespace ItKarieraProjectTest.Presentation
 			    this.loginController.Login(this.usernameTextBox.Text, hashedPassword);
 
 				//RedirectLogin(userId);
+				passwordTextBox.Clear();
+				usernameTextBox.Clear();
 				this.Hide();
 
 				var MainMenuForm = FormFactory.GetFormInstance<MainMenu>();
@@ -49,6 +51,8 @@ namespace ItKarieraProjectTest.Presentation
 
         private void registerButton_Click(object sender, EventArgs e)
         {
+			passwordTextBox.Clear();
+			usernameTextBox.Clear();
 			this.Hide();
 
 			var registerForm = FormFactory.GetFormInstance<RegisterForm>();
