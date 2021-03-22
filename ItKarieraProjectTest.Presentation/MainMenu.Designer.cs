@@ -60,7 +60,7 @@
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.nameLabel.Location = new System.Drawing.Point(235, 43);
+            this.nameLabel.Location = new System.Drawing.Point(220, 43);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(24, 25);
@@ -70,22 +70,22 @@
             // balanceLabel
             // 
             this.balanceLabel.AutoSize = true;
-            this.balanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.balanceLabel.Location = new System.Drawing.Point(133, 168);
+            this.balanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.balanceLabel.Location = new System.Drawing.Point(118, 168);
             this.balanceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.balanceLabel.Name = "balanceLabel";
-            this.balanceLabel.Size = new System.Drawing.Size(14, 16);
+            this.balanceLabel.Size = new System.Drawing.Size(15, 16);
             this.balanceLabel.TabIndex = 2;
             this.balanceLabel.Text = "v";
             // 
             // workhoursLabel
             // 
             this.workhoursLabel.AutoSize = true;
-            this.workhoursLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.workhoursLabel.Location = new System.Drawing.Point(476, 168);
+            this.workhoursLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.workhoursLabel.Location = new System.Drawing.Point(456, 168);
             this.workhoursLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.workhoursLabel.Name = "workhoursLabel";
-            this.workhoursLabel.Size = new System.Drawing.Size(14, 16);
+            this.workhoursLabel.Size = new System.Drawing.Size(15, 16);
             this.workhoursLabel.TabIndex = 3;
             this.workhoursLabel.Text = "v";
             // 
@@ -136,11 +136,11 @@
             // companyLabel
             // 
             this.companyLabel.AutoSize = true;
-            this.companyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.companyLabel.Location = new System.Drawing.Point(162, 256);
+            this.companyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.companyLabel.Location = new System.Drawing.Point(155, 257);
             this.companyLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.companyLabel.Name = "companyLabel";
-            this.companyLabel.Size = new System.Drawing.Size(14, 16);
+            this.companyLabel.Size = new System.Drawing.Size(15, 16);
             this.companyLabel.TabIndex = 8;
             this.companyLabel.Text = "v";
             // 
@@ -151,28 +151,28 @@
             this.label3.Location = new System.Drawing.Point(331, 369);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 15);
+            this.label3.Size = new System.Drawing.Size(133, 15);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Your current payment:";
+            this.label3.Text = "Your pending payment:";
             // 
             // currentpaymentLabel
             // 
             this.currentpaymentLabel.AutoSize = true;
-            this.currentpaymentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.currentpaymentLabel.Location = new System.Drawing.Point(485, 369);
+            this.currentpaymentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.currentpaymentLabel.Location = new System.Drawing.Point(465, 369);
             this.currentpaymentLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.currentpaymentLabel.Name = "currentpaymentLabel";
-            this.currentpaymentLabel.Size = new System.Drawing.Size(12, 15);
+            this.currentpaymentLabel.Size = new System.Drawing.Size(13, 15);
             this.currentpaymentLabel.TabIndex = 12;
             this.currentpaymentLabel.Text = "v";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(429, 253);
+            this.textBox1.Location = new System.Drawing.Point(410, 253);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(63, 22);
+            this.textBox1.Size = new System.Drawing.Size(82, 22);
             this.textBox1.TabIndex = 13;
             // 
             // button1
@@ -181,10 +181,11 @@
             this.button1.Location = new System.Drawing.Point(500, 253);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(54, 25);
+            this.button1.Size = new System.Drawing.Size(54, 22);
             this.button1.TabIndex = 14;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -196,6 +197,7 @@
             this.button2.TabIndex = 15;
             this.button2.Text = "Calculate your payment";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // logoutButton
             // 
@@ -207,6 +209,7 @@
             this.logoutButton.TabIndex = 16;
             this.logoutButton.Text = "Logout";
             this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // MainMenu
             // 
