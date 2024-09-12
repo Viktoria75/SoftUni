@@ -5,6 +5,7 @@ using Autofac;
 
 namespace ItKarieraProjectTest.Presentation.Utility
 {
+    //Creates the Form
     class FormFactory
     {
         public static ILifetimeScope _scope;

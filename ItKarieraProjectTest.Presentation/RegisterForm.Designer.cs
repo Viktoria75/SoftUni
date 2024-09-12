@@ -46,7 +46,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.balanceTextBox = new System.Windows.Forms.TextBox();
             this.errorLabel = new System.Windows.Forms.Label();
-            this.companyTextBox = new System.Windows.Forms.TextBox();
+            this.companycomboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -125,6 +125,7 @@
             this.cancelButton.TabIndex = 6;
             this.cancelButton.Text = "Cancel";
             this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
             // registerButton
             // 
@@ -136,6 +137,7 @@
             this.registerButton.TabIndex = 7;
             this.registerButton.Text = "Register";
             this.registerButton.UseVisualStyleBackColor = true;
+            this.registerButton.Click += new System.EventHandler(this.registerButton_Click);
             // 
             // usernameTextBox
             // 
@@ -179,7 +181,7 @@
             // 
             // workhoursTextBox
             // 
-            this.workhoursTextBox.Location = new System.Drawing.Point(258, 299);
+            this.workhoursTextBox.Location = new System.Drawing.Point(258, 300);
             this.workhoursTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.workhoursTextBox.Name = "workhoursTextBox";
             this.workhoursTextBox.Size = new System.Drawing.Size(162, 23);
@@ -225,19 +227,28 @@
             this.errorLabel.TabIndex = 18;
             this.errorLabel.Text = "v";
             // 
-            // companyTextBox
+            // companycomboBox
             // 
-            this.companyTextBox.Location = new System.Drawing.Point(258, 273);
-            this.companyTextBox.Name = "companyTextBox";
-            this.companyTextBox.Size = new System.Drawing.Size(162, 23);
-            this.companyTextBox.TabIndex = 19;
+            this.companycomboBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.companycomboBox.FormattingEnabled = true;
+            this.companycomboBox.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.companycomboBox.Location = new System.Drawing.Point(258, 273);
+            this.companycomboBox.Name = "companycomboBox";
+            this.companycomboBox.Size = new System.Drawing.Size(162, 23);
+            this.companycomboBox.TabIndex = 20;
+            this.companycomboBox.Text = "Your company\'s ID";
             // 
             // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(524, 462);
-            this.Controls.Add(this.companyTextBox);
+            this.Controls.Add(this.companycomboBox);
             this.Controls.Add(this.errorLabel);
             this.Controls.Add(this.balanceTextBox);
             this.Controls.Add(this.label8);
@@ -259,6 +270,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "RegisterForm";
             this.Text = "Register";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RegisterForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,6 +296,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox balanceTextBox;
         private System.Windows.Forms.Label errorLabel;
-        private System.Windows.Forms.TextBox companyTextBox;
+        private System.Windows.Forms.ComboBox companycomboBox;
     }
 }
