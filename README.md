@@ -1,1 +1,1 @@
-Final project for SoftUni Programming Course 2021.
+Final project for SoftUni C# Programming Course 2021.
