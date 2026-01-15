@@ -32,9 +32,9 @@ namespace ItKarieraProjectTest.Presentation
 
 				registrationViewModel.FirstName = this.firstNameTextBox.Text;
 				registrationViewModel.LastName = this.lastNameTextBox.Text;
-				registrationViewModel.Company = int.Parse(companyTextBox.Text);
+				registrationViewModel.Company = int.Parse(companycomboBox.Text);
 				registrationViewModel.WorkHours = int.Parse(workhoursTextBox.Text);
-				registrationViewModel.Balance = int.Parse(balanceTextBox.Text);
+				registrationViewModel.Balance = decimal.Parse(balanceTextBox.Text);
 
 				registrationViewModel.Username = this.usernameTextBox.Text;
 				registrationViewModel.Password = PasswordHelper.HashPassword(this.passwordTextBox.Text);
@@ -57,11 +57,12 @@ namespace ItKarieraProjectTest.Presentation
 		private void cancelButton_Click(object sender, EventArgs e)
 		{
 			this.Close();
+			//var loginForm = FormFactory.GetFormInstance<LoginForm>();
+			//loginForm.Show();
 		}
 
 		private void RegisterForm_FormClosed(object sender, FormClosedEventArgs e)
 		{
-
 			var loginForm = FormFactory.GetFormInstance<LoginForm>();
 			loginForm.Show();
 		}

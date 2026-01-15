@@ -5,10 +5,9 @@ using System.Linq;
 
 namespace ItKarieraProjectTest.DAO
 {
-    public class ProfileDAO : IProfileDAO
+	//Assigns the value to a database value
+	public class ProfileDAO : IProfileDAO
     {
-		//personinfo = users
-		//workersprofile = logins
 
 
 		public PersonInfo LogIn(string username, string password)
@@ -21,9 +20,9 @@ namespace ItKarieraProjectTest.DAO
 			return user;
 		}
 
-		public void RegisterUser(PersonInfo loginInfo)
+		public void RegisterUser(WorkersProfile loginInfo)
 		{
-			this.context.PersonInfo.Add(loginInfo);
+			this.context.WorkersProfile.Add(loginInfo);
 			this.context.SaveChanges();
 
 		}

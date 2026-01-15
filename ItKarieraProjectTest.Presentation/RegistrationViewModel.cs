@@ -4,6 +4,7 @@ using System.Text;
 
 namespace ItKarieraProjectTest.Presentation
 {
+
     public class RegistrationViewModel
     {
         public string Username { get; set; }
